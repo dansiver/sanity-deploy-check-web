@@ -18,6 +18,7 @@ function ImageSection (props) {
   return (
     <div className={styles.root}>
       <figure className={styles.content}>
+        <div>_______TEST_______</div>
         <img
           src={builder
             .image(image)
