@@ -9,6 +9,7 @@
     "format": "prettier-eslint --write \"**/*.js\" \"!.next/**\" \"!node_modules/**\" \"!out/**\"",
     "lint": "eslint .",
     "pretier:check": "prettier --check \"**/*.js\"",
+    "pretier:write": "prettier --write \"**/*.js\"",
     "start": "next start"
   },
   "dependencies": {
