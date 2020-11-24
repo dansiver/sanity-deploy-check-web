@@ -36,4 +36,5 @@ jobs:
           echo test, and deploy your project.
       
       - name: Run linter
+        run: npm install
         run: npm run lint
