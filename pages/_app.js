@@ -30,7 +30,7 @@ class App extends BaseApp {
 
     // Add site config from sanity
     return client.fetch(siteConfigQuery).then(config => {
-      console.log('Test PR 1')
+      console.log('Test PR 221')
       console.log('Test PR 2')
 
       if (!config) {
